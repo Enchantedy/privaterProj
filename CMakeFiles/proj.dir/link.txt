@@ -1,1 +1,1 @@
-/usr/bin/c++      CMakeFiles/proj.dir/src/main.cpp.o CMakeFiles/proj.dir/src/skeletonService.cpp.o CMakeFiles/proj.dir/src/manager.cpp.o CMakeFiles/proj.dir/src/myList.cpp.o  -o proj -rdynamic -lpthread 
+/usr/bin/c++      CMakeFiles/proj.dir/src/main.cpp.o CMakeFiles/proj.dir/src/skeletonService.cpp.o CMakeFiles/proj.dir/src/manager.cpp.o CMakeFiles/proj.dir/src/singlyList.cpp.o  -o proj -rdynamic -lpthread 

@@ -1,4 +1,4 @@
-#include "include/myList.h"
+#include "include/singlyList.h"
 
 struct list_node* init_list() {
     struct list_node* head = (struct list_node*)malloc(sizeof(struct list_node));
@@ -23,7 +23,19 @@ int front_insert_list(int num, struct list_node* head) {
 }
 
 int tail_insert_list(int num, struct list_node* head) {
-    
+    struct list_node* pos = head;
+    while(1) {
+        if(pos->next == NULL) {
+            struct list_node* new_node = init_list();
+            new_node->num = num;
+            pos->next = new_node;
+            new_node->next = NULL;
+            return 0;
+        }
+        else {
+            pos = pos->next;
+        }
+    }
 }
 
 int delete_list(int num, struct list_node* head) {

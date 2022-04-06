@@ -3,13 +3,14 @@
 
 CMakeFiles/proj.dir/src/main.cpp.o
  /home/c/umouse/codetest/myProject/src/main.cpp
+ include/singlyList.h
 CMakeFiles/proj.dir/src/manager.cpp.o
  /home/c/umouse/codetest/myProject/src/manager.cpp
  include/manager.h
  include/skeletonService.h
-CMakeFiles/proj.dir/src/myList.cpp.o
- /home/c/umouse/codetest/myProject/src/myList.cpp
- include/myList.h
+CMakeFiles/proj.dir/src/singlyList.cpp.o
+ /home/c/umouse/codetest/myProject/src/singlyList.cpp
+ include/singlyList.h
 CMakeFiles/proj.dir/src/skeletonService.cpp.o
  /home/c/umouse/codetest/myProject/src/skeletonService.cpp
  include/skeletonService.h

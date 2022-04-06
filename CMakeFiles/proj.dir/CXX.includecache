@@ -9,18 +9,24 @@
 /home/c/umouse/codetest/myProject/src/main.cpp
 iostream
 /home/c/umouse/codetest/myProject/src/iostream
+typeinfo
+-
+include/singlyList.h
+/home/c/umouse/codetest/myProject/src/include/singlyList.h
 
 /home/c/umouse/codetest/myProject/src/manager.cpp
 include/manager.h
 /home/c/umouse/codetest/myProject/src/include/manager.h
 
-/home/c/umouse/codetest/myProject/src/myList.cpp
-include/myList.h
-/home/c/umouse/codetest/myProject/src/include/myList.h
+/home/c/umouse/codetest/myProject/src/singlyList.cpp
+include/singlyList.h
+/home/c/umouse/codetest/myProject/src/include/singlyList.h
 
 /home/c/umouse/codetest/myProject/src/skeletonService.cpp
 include/skeletonService.h
 /home/c/umouse/codetest/myProject/src/include/skeletonService.h
+typeinfo
+-
 
 include/manager.h
 iostream
@@ -28,7 +34,7 @@ iostream
 skeletonService.h
 include/skeletonService.h
 
-include/myList.h
+include/singlyList.h
 iostream
 -
 stdio.h
@@ -48,7 +54,5 @@ iomanip
 unistd.h
 -
 mutex
--
-chrono.h
 -
 

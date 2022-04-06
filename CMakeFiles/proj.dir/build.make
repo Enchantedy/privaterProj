@@ -129,28 +129,28 @@ CMakeFiles/proj.dir/src/manager.cpp.o.provides: CMakeFiles/proj.dir/src/manager.
 CMakeFiles/proj.dir/src/manager.cpp.o.provides.build: CMakeFiles/proj.dir/src/manager.cpp.o
 
 
-CMakeFiles/proj.dir/src/myList.cpp.o: CMakeFiles/proj.dir/flags.make
-CMakeFiles/proj.dir/src/myList.cpp.o: src/myList.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/c/umouse/codetest/myProject/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/proj.dir/src/myList.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/proj.dir/src/myList.cpp.o -c /home/c/umouse/codetest/myProject/src/myList.cpp
+CMakeFiles/proj.dir/src/singlyList.cpp.o: CMakeFiles/proj.dir/flags.make
+CMakeFiles/proj.dir/src/singlyList.cpp.o: src/singlyList.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/c/umouse/codetest/myProject/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/proj.dir/src/singlyList.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/proj.dir/src/singlyList.cpp.o -c /home/c/umouse/codetest/myProject/src/singlyList.cpp
 
-CMakeFiles/proj.dir/src/myList.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/proj.dir/src/myList.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/c/umouse/codetest/myProject/src/myList.cpp > CMakeFiles/proj.dir/src/myList.cpp.i
+CMakeFiles/proj.dir/src/singlyList.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/proj.dir/src/singlyList.cpp.i"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/c/umouse/codetest/myProject/src/singlyList.cpp > CMakeFiles/proj.dir/src/singlyList.cpp.i
 
-CMakeFiles/proj.dir/src/myList.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/proj.dir/src/myList.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/c/umouse/codetest/myProject/src/myList.cpp -o CMakeFiles/proj.dir/src/myList.cpp.s
+CMakeFiles/proj.dir/src/singlyList.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/proj.dir/src/singlyList.cpp.s"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/c/umouse/codetest/myProject/src/singlyList.cpp -o CMakeFiles/proj.dir/src/singlyList.cpp.s
 
-CMakeFiles/proj.dir/src/myList.cpp.o.requires:
+CMakeFiles/proj.dir/src/singlyList.cpp.o.requires:
 
-.PHONY : CMakeFiles/proj.dir/src/myList.cpp.o.requires
+.PHONY : CMakeFiles/proj.dir/src/singlyList.cpp.o.requires
 
-CMakeFiles/proj.dir/src/myList.cpp.o.provides: CMakeFiles/proj.dir/src/myList.cpp.o.requires
-	$(MAKE) -f CMakeFiles/proj.dir/build.make CMakeFiles/proj.dir/src/myList.cpp.o.provides.build
-.PHONY : CMakeFiles/proj.dir/src/myList.cpp.o.provides
+CMakeFiles/proj.dir/src/singlyList.cpp.o.provides: CMakeFiles/proj.dir/src/singlyList.cpp.o.requires
+	$(MAKE) -f CMakeFiles/proj.dir/build.make CMakeFiles/proj.dir/src/singlyList.cpp.o.provides.build
+.PHONY : CMakeFiles/proj.dir/src/singlyList.cpp.o.provides
 
-CMakeFiles/proj.dir/src/myList.cpp.o.provides.build: CMakeFiles/proj.dir/src/myList.cpp.o
+CMakeFiles/proj.dir/src/singlyList.cpp.o.provides.build: CMakeFiles/proj.dir/src/singlyList.cpp.o
 
 
 # Object files for target proj
@@ -158,7 +158,7 @@ proj_OBJECTS = \
 "CMakeFiles/proj.dir/src/main.cpp.o" \
 "CMakeFiles/proj.dir/src/skeletonService.cpp.o" \
 "CMakeFiles/proj.dir/src/manager.cpp.o" \
-"CMakeFiles/proj.dir/src/myList.cpp.o"
+"CMakeFiles/proj.dir/src/singlyList.cpp.o"
 
 # External object files for target proj
 proj_EXTERNAL_OBJECTS =
@@ -166,7 +166,7 @@ proj_EXTERNAL_OBJECTS =
 proj: CMakeFiles/proj.dir/src/main.cpp.o
 proj: CMakeFiles/proj.dir/src/skeletonService.cpp.o
 proj: CMakeFiles/proj.dir/src/manager.cpp.o
-proj: CMakeFiles/proj.dir/src/myList.cpp.o
+proj: CMakeFiles/proj.dir/src/singlyList.cpp.o
 proj: CMakeFiles/proj.dir/build.make
 proj: CMakeFiles/proj.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/c/umouse/codetest/myProject/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX executable proj"
@@ -180,7 +180,7 @@ CMakeFiles/proj.dir/build: proj
 CMakeFiles/proj.dir/requires: CMakeFiles/proj.dir/src/main.cpp.o.requires
 CMakeFiles/proj.dir/requires: CMakeFiles/proj.dir/src/skeletonService.cpp.o.requires
 CMakeFiles/proj.dir/requires: CMakeFiles/proj.dir/src/manager.cpp.o.requires
-CMakeFiles/proj.dir/requires: CMakeFiles/proj.dir/src/myList.cpp.o.requires
+CMakeFiles/proj.dir/requires: CMakeFiles/proj.dir/src/singlyList.cpp.o.requires
 
 .PHONY : CMakeFiles/proj.dir/requires
 

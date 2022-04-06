@@ -177,32 +177,32 @@ src/manager.cpp.s:
 	$(MAKE) -f CMakeFiles/proj.dir/build.make CMakeFiles/proj.dir/src/manager.cpp.s
 .PHONY : src/manager.cpp.s
 
-src/myList.o: src/myList.cpp.o
+src/singlyList.o: src/singlyList.cpp.o
 
-.PHONY : src/myList.o
+.PHONY : src/singlyList.o
 
 # target to build an object file
-src/myList.cpp.o:
-	$(MAKE) -f CMakeFiles/proj.dir/build.make CMakeFiles/proj.dir/src/myList.cpp.o
-.PHONY : src/myList.cpp.o
+src/singlyList.cpp.o:
+	$(MAKE) -f CMakeFiles/proj.dir/build.make CMakeFiles/proj.dir/src/singlyList.cpp.o
+.PHONY : src/singlyList.cpp.o
 
-src/myList.i: src/myList.cpp.i
+src/singlyList.i: src/singlyList.cpp.i
 
-.PHONY : src/myList.i
+.PHONY : src/singlyList.i
 
 # target to preprocess a source file
-src/myList.cpp.i:
-	$(MAKE) -f CMakeFiles/proj.dir/build.make CMakeFiles/proj.dir/src/myList.cpp.i
-.PHONY : src/myList.cpp.i
+src/singlyList.cpp.i:
+	$(MAKE) -f CMakeFiles/proj.dir/build.make CMakeFiles/proj.dir/src/singlyList.cpp.i
+.PHONY : src/singlyList.cpp.i
 
-src/myList.s: src/myList.cpp.s
+src/singlyList.s: src/singlyList.cpp.s
 
-.PHONY : src/myList.s
+.PHONY : src/singlyList.s
 
 # target to generate assembly for a file
-src/myList.cpp.s:
-	$(MAKE) -f CMakeFiles/proj.dir/build.make CMakeFiles/proj.dir/src/myList.cpp.s
-.PHONY : src/myList.cpp.s
+src/singlyList.cpp.s:
+	$(MAKE) -f CMakeFiles/proj.dir/build.make CMakeFiles/proj.dir/src/singlyList.cpp.s
+.PHONY : src/singlyList.cpp.s
 
 src/skeletonService.o: src/skeletonService.cpp.o
 
@@ -246,9 +246,9 @@ help:
 	@echo "... src/manager.o"
 	@echo "... src/manager.i"
 	@echo "... src/manager.s"
-	@echo "... src/myList.o"
-	@echo "... src/myList.i"
-	@echo "... src/myList.s"
+	@echo "... src/singlyList.o"
+	@echo "... src/singlyList.i"
+	@echo "... src/singlyList.s"
 	@echo "... src/skeletonService.o"
 	@echo "... src/skeletonService.i"
 	@echo "... src/skeletonService.s"

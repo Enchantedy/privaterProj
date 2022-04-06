@@ -6,7 +6,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 set(CMAKE_DEPENDS_CHECK_CXX
   "/home/c/umouse/codetest/myProject/src/main.cpp" "/home/c/umouse/codetest/myProject/CMakeFiles/proj.dir/src/main.cpp.o"
   "/home/c/umouse/codetest/myProject/src/manager.cpp" "/home/c/umouse/codetest/myProject/CMakeFiles/proj.dir/src/manager.cpp.o"
-  "/home/c/umouse/codetest/myProject/src/myList.cpp" "/home/c/umouse/codetest/myProject/CMakeFiles/proj.dir/src/myList.cpp.o"
+  "/home/c/umouse/codetest/myProject/src/singlyList.cpp" "/home/c/umouse/codetest/myProject/CMakeFiles/proj.dir/src/singlyList.cpp.o"
   "/home/c/umouse/codetest/myProject/src/skeletonService.cpp" "/home/c/umouse/codetest/myProject/CMakeFiles/proj.dir/src/skeletonService.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
