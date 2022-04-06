@@ -1,0 +1,452 @@
+The system is: Linux - 4.15.0-142-generic - x86_64
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler: /home/c/yunshi_robot/tina-master/prebuilt/gcc/linux-x86/arm/toolchain-sunxi-musl/toolchain/bin/arm-openwrt-linux-muslgnueabi-gcc-6.4.1 
+Build flags: 
+Id flags: 
+
+The output was:
+0
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
+
+The C compiler identification is GNU, found in "/home/c/umouse/codetest/myProject/build/CMakeFiles/3.5.1/CompilerIdC/a.out"
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+Compiler: /home/c/yunshi_robot/tina-master/prebuilt/gcc/linux-x86/arm/toolchain-sunxi-musl/toolchain/bin/arm-openwrt-linux-muslgnueabi-g++ 
+Build flags: 
+Id flags: 
+
+The output was:
+0
+
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out"
+
+The CXX compiler identification is GNU, found in "/home/c/umouse/codetest/myProject/build/CMakeFiles/3.5.1/CompilerIdCXX/a.out"
+
+Determining if the C compiler works passed with the following output:
+Change Dir: /home/c/umouse/codetest/myProject/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/ninja" "cmTC_34ace"
+[1/2] Building C object CMakeFiles/cmTC_34ace.dir/testCCompiler.c.o
+[2/2] Linking C executable cmTC_34ace
+
+
+Detecting C compiler ABI info compiled with the following output:
+Change Dir: /home/c/umouse/codetest/myProject/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/ninja" "cmTC_93abf"
+[1/2] Building C object CMakeFiles/cmTC_93abf.dir/CMakeCCompilerABI.c.o
+[2/2] Linking C executable cmTC_93abf
+Reading specs from /home/c/yunshi_robot/tina-master/prebuilt/gcc/linux-x86/arm/toolchain-sunxi-musl/toolchain/bin/../lib/gcc/arm-openwrt-linux-muslgnueabi/6.4.1/specs
+COLLECT_GCC=/home/c/yunshi_robot/tina-master/prebuilt/gcc/linux-x86/arm/toolchain-sunxi-musl/toolchain/bin/arm-openwrt-linux-muslgnueabi-gcc-6.4.1
+COLLECT_LTO_WRAPPER=/home/c/yunshi_robot/tina-master/prebuilt/gcc/linux-x86/arm/toolchain-sunxi-musl/toolchain/bin/../libexec/gcc/arm-openwrt-linux-muslgnueabi/6.4.1/lto-wrapper
+Target: arm-openwrt-linux-muslgnueabi
+Configured with: /home/caiyongheng/tina/out/astar-parrot/compile_dir/toolchain/gcc-linaro-6.4-2017.11/configure --with-bugurl=https://dev.openwrt.org/ --with-pkgversion='OpenWrt/Linaro GCC 6.4-2017.11 2017-11' --prefix=/home/caiyongheng/tina/out/astar-parrot/staging_dir/toolchain --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=arm-openwrt-linux-muslgnueabi --with-gnu-ld --enable-target-optspace --enable-libgomp --disable-libmudflap --disable-multilib --disable-nls --without-isl --without-cloog --with-host-libstdcxx=-lstdc++ --with-gmp=/home/caiyongheng/tina/out/host --with-mpfr=/home/caiyongheng/tina/out/host --with-mpc=/home/caiyongheng/tina/out/host --disable-decimal-float --with-diagnostics-color=auto-if-env --disable-libssp --enable-__cxa_atexit --with-arch=armv7-a --with-float=hard --with-headers=/home/caiyongheng/tina/out/astar-parrot/staging_dir/toolchain/include --disable-libsanitizer --enable-languages=c,c++ --enable-shared --enable-threads --with-slibdir=/home/caiyongheng/tina/out/astar-parrot/staging_dir/toolchain/lib --enable-lto --with-libelf=/home/caiyongheng/tina/out/host
+Thread model: posix
+gcc version 6.4.1 (OpenWrt/Linaro GCC 6.4-2017.11 2017-11) 
+COMPILER_PATH=/home/c/yunshi_robot/tina-master/prebuilt/gcc/linux-x86/arm/toolchain-sunxi-musl/toolchain/bin/../libexec/gcc/arm-openwrt-linux-muslgnueabi/6.4.1/:/home/c/yunshi_robot/tina-master/prebuilt/gcc/linux-x86/arm/toolchain-sunxi-musl/toolchain/bin/../libexec/gcc/:/home/c/yunshi_robot/tina-master/prebuilt/gcc/linux-x86/arm/toolchain-sunxi-musl/toolchain/bin/../lib/gcc/arm-openwrt-linux-muslgnueabi/6.4.1/../../../../arm-openwrt-linux-muslgnueabi/bin/
+LIBRARY_PATH=/home/c/yunshi_robot/tina-master/prebuilt/gcc/linux-x86/arm/toolchain-sunxi-musl/toolchain/bin/../lib/gcc/arm-openwrt-linux-muslgnueabi/6.4.1/:/home/c/yunshi_robot/tina-master/prebuilt/gcc/linux-x86/arm/toolchain-sunxi-musl/toolchain/bin/../lib/gcc/:/home/c/yunshi_robot/tina-master/prebuilt/gcc/linux-x86/arm/toolchain-sunxi-musl/toolchain/bin/../lib/gcc/arm-openwrt-linux-muslgnueabi/6.4.1/../../../../arm-openwrt-linux-muslgnueabi/lib/
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_93abf' '-rdynamic' '-march=armv7-a' '-mfloat-abi=hard' '-mtls-dialect=gnu'
+ /home/c/yunshi_robot/tina-master/prebuilt/gcc/linux-x86/arm/toolchain-sunxi-musl/toolchain/bin/../libexec/gcc/arm-openwrt-linux-muslgnueabi/6.4.1/collect2 -plugin /home/c/yunshi_robot/tina-master/prebuilt/gcc/linux-x86/arm/toolchain-sunxi-musl/toolchain/bin/../libexec/gcc/arm-openwrt-linux-muslgnueabi/6.4.1/liblto_plugin.so -plugin-opt=/home/c/yunshi_robot/tina-master/prebuilt/gcc/linux-x86/arm/toolchain-sunxi-musl/toolchain/bin/../libexec/gcc/arm-openwrt-linux-muslgnueabi/6.4.1/lto-wrapper -plugin-opt=-fresolution=/tmp/ccinJnxn.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s --eh-frame-hdr -export-dynamic -dynamic-linker /lib/ld-musl-armhf.so.1 -X -m armelf_linux_eabi -o cmTC_93abf /home/c/yunshi_robot/tina-master/prebuilt/gcc/linux-x86/arm/toolchain-sunxi-musl/toolchain/bin/../lib/gcc/arm-openwrt-linux-muslgnueabi/6.4.1/../../../../arm-openwrt-linux-muslgnueabi/lib/crt1.o /home/c/yunshi_robot/tina-master/prebuilt/gcc/linux-x86/arm/toolchain-sunxi-musl/toolchain/bin/../lib/gcc/arm-openwrt-linux-muslgnueabi/6.4.1/../../../../arm-openwrt-linux-muslgnueabi/lib/crti.o /home/c/yunshi_robot/tina-master/prebuilt/gcc/linux-x86/arm/toolchain-sunxi-musl/toolchain/bin/../lib/gcc/arm-openwrt-linux-muslgnueabi/6.4.1/crtbegin.o -L /home/c/yunshi_robot/tina-master/prebuilt/gcc/linux-x86/arm/toolchain-sunxi-musl/toolchain/bin:/home/c/yunshi_robot/tina-master/prebuilt/gcc/linux-x86/arm/toolchain-sunxi-musl/toolchain/bin:/usr/lib -rpath-link /home/c/yunshi_robot/tina-master/prebuilt/gcc/linux-x86/arm/toolchain-sunxi-musl/toolchain/bin:/home/c/yunshi_robot/tina-master/prebuilt/gcc/linux-x86/arm/toolchain-sunxi-musl/toolchain/bin:/usr/lib -L/home/c/yunshi_robot/tina-master/prebuilt/gcc/linux-x86/arm/toolchain-sunxi-musl/toolchain/bin/../lib/gcc/arm-openwrt-linux-muslgnueabi/6.4.1 -L/home/c/yunshi_robot/tina-master/prebuilt/gcc/linux-x86/arm/toolchain-sunxi-musl/toolchain/bin/../lib/gcc -L/home/c/yunshi_robot/tina-master/prebuilt/gcc/linux-x86/arm/toolchain-sunxi-musl/toolchain/bin/../lib/gcc/arm-openwrt-linux-muslgnueabi/6.4.1/../../../../arm-openwrt-linux-muslgnueabi/lib CMakeFiles/cmTC_93abf.dir/CMakeCCompilerABI.c.o -lssp_nonshared -lgcc_s -lc -lgcc_s /home/c/yunshi_robot/tina-master/prebuilt/gcc/linux-x86/arm/toolchain-sunxi-musl/toolchain/bin/../lib/gcc/arm-openwrt-linux-muslgnueabi/6.4.1/crtend.o /home/c/yunshi_robot/tina-master/prebuilt/gcc/linux-x86/arm/toolchain-sunxi-musl/toolchain/bin/../lib/gcc/arm-openwrt-linux-muslgnueabi/6.4.1/../../../../arm-openwrt-linux-muslgnueabi/lib/crtn.o
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_93abf' '-rdynamic' '-march=armv7-a' '-mfloat-abi=hard' '-mtls-dialect=gnu'
+
+
+Parsed C implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /home/c/umouse/codetest/myProject/build/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command:"/usr/bin/ninja" "cmTC_93abf"]
+  ignore line: [[1/2] Building C object CMakeFiles/cmTC_93abf.dir/CMakeCCompilerABI.c.o]
+  ignore line: [[2/2] Linking C executable cmTC_93abf]
+  ignore line: [Reading specs from /home/c/yunshi_robot/tina-master/prebuilt/gcc/linux-x86/arm/toolchain-sunxi-musl/toolchain/bin/../lib/gcc/arm-openwrt-linux-muslgnueabi/6.4.1/specs]
+  ignore line: [COLLECT_GCC=/home/c/yunshi_robot/tina-master/prebuilt/gcc/linux-x86/arm/toolchain-sunxi-musl/toolchain/bin/arm-openwrt-linux-muslgnueabi-gcc-6.4.1]
+  ignore line: [COLLECT_LTO_WRAPPER=/home/c/yunshi_robot/tina-master/prebuilt/gcc/linux-x86/arm/toolchain-sunxi-musl/toolchain/bin/../libexec/gcc/arm-openwrt-linux-muslgnueabi/6.4.1/lto-wrapper]
+  ignore line: [Target: arm-openwrt-linux-muslgnueabi]
+  ignore line: [Configured with: /home/caiyongheng/tina/out/astar-parrot/compile_dir/toolchain/gcc-linaro-6.4-2017.11/configure --with-bugurl=https://dev.openwrt.org/ --with-pkgversion='OpenWrt/Linaro GCC 6.4-2017.11 2017-11' --prefix=/home/caiyongheng/tina/out/astar-parrot/staging_dir/toolchain --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=arm-openwrt-linux-muslgnueabi --with-gnu-ld --enable-target-optspace --enable-libgomp --disable-libmudflap --disable-multilib --disable-nls --without-isl --without-cloog --with-host-libstdcxx=-lstdc++ --with-gmp=/home/caiyongheng/tina/out/host --with-mpfr=/home/caiyongheng/tina/out/host --with-mpc=/home/caiyongheng/tina/out/host --disable-decimal-float --with-diagnostics-color=auto-if-env --disable-libssp --enable-__cxa_atexit --with-arch=armv7-a --with-float=hard --with-headers=/home/caiyongheng/tina/out/astar-parrot/staging_dir/toolchain/include --disable-libsanitizer --enable-languages=c,c++ --enable-shared --enable-threads --with-slibdir=/home/caiyongheng/tina/out/astar-parrot/staging_dir/toolchain/lib --enable-lto --with-libelf=/home/caiyongheng/tina/out/host]
+  ignore line: [Thread model: posix]
+  ignore line: [gcc version 6.4.1 (OpenWrt/Linaro GCC 6.4-2017.11 2017-11) ]
+  ignore line: [COMPILER_PATH=/home/c/yunshi_robot/tina-master/prebuilt/gcc/linux-x86/arm/toolchain-sunxi-musl/toolchain/bin/../libexec/gcc/arm-openwrt-linux-muslgnueabi/6.4.1/:/home/c/yunshi_robot/tina-master/prebuilt/gcc/linux-x86/arm/toolchain-sunxi-musl/toolchain/bin/../libexec/gcc/:/home/c/yunshi_robot/tina-master/prebuilt/gcc/linux-x86/arm/toolchain-sunxi-musl/toolchain/bin/../lib/gcc/arm-openwrt-linux-muslgnueabi/6.4.1/../../../../arm-openwrt-linux-muslgnueabi/bin/]
+  ignore line: [LIBRARY_PATH=/home/c/yunshi_robot/tina-master/prebuilt/gcc/linux-x86/arm/toolchain-sunxi-musl/toolchain/bin/../lib/gcc/arm-openwrt-linux-muslgnueabi/6.4.1/:/home/c/yunshi_robot/tina-master/prebuilt/gcc/linux-x86/arm/toolchain-sunxi-musl/toolchain/bin/../lib/gcc/:/home/c/yunshi_robot/tina-master/prebuilt/gcc/linux-x86/arm/toolchain-sunxi-musl/toolchain/bin/../lib/gcc/arm-openwrt-linux-muslgnueabi/6.4.1/../../../../arm-openwrt-linux-muslgnueabi/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_93abf' '-rdynamic' '-march=armv7-a' '-mfloat-abi=hard' '-mtls-dialect=gnu']
+  link line: [ /home/c/yunshi_robot/tina-master/prebuilt/gcc/linux-x86/arm/toolchain-sunxi-musl/toolchain/bin/../libexec/gcc/arm-openwrt-linux-muslgnueabi/6.4.1/collect2 -plugin /home/c/yunshi_robot/tina-master/prebuilt/gcc/linux-x86/arm/toolchain-sunxi-musl/toolchain/bin/../libexec/gcc/arm-openwrt-linux-muslgnueabi/6.4.1/liblto_plugin.so -plugin-opt=/home/c/yunshi_robot/tina-master/prebuilt/gcc/linux-x86/arm/toolchain-sunxi-musl/toolchain/bin/../libexec/gcc/arm-openwrt-linux-muslgnueabi/6.4.1/lto-wrapper -plugin-opt=-fresolution=/tmp/ccinJnxn.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s --eh-frame-hdr -export-dynamic -dynamic-linker /lib/ld-musl-armhf.so.1 -X -m armelf_linux_eabi -o cmTC_93abf /home/c/yunshi_robot/tina-master/prebuilt/gcc/linux-x86/arm/toolchain-sunxi-musl/toolchain/bin/../lib/gcc/arm-openwrt-linux-muslgnueabi/6.4.1/../../../../arm-openwrt-linux-muslgnueabi/lib/crt1.o /home/c/yunshi_robot/tina-master/prebuilt/gcc/linux-x86/arm/toolchain-sunxi-musl/toolchain/bin/../lib/gcc/arm-openwrt-linux-muslgnueabi/6.4.1/../../../../arm-openwrt-linux-muslgnueabi/lib/crti.o /home/c/yunshi_robot/tina-master/prebuilt/gcc/linux-x86/arm/toolchain-sunxi-musl/toolchain/bin/../lib/gcc/arm-openwrt-linux-muslgnueabi/6.4.1/crtbegin.o -L /home/c/yunshi_robot/tina-master/prebuilt/gcc/linux-x86/arm/toolchain-sunxi-musl/toolchain/bin:/home/c/yunshi_robot/tina-master/prebuilt/gcc/linux-x86/arm/toolchain-sunxi-musl/toolchain/bin:/usr/lib -rpath-link /home/c/yunshi_robot/tina-master/prebuilt/gcc/linux-x86/arm/toolchain-sunxi-musl/toolchain/bin:/home/c/yunshi_robot/tina-master/prebuilt/gcc/linux-x86/arm/toolchain-sunxi-musl/toolchain/bin:/usr/lib -L/home/c/yunshi_robot/tina-master/prebuilt/gcc/linux-x86/arm/toolchain-sunxi-musl/toolchain/bin/../lib/gcc/arm-openwrt-linux-muslgnueabi/6.4.1 -L/home/c/yunshi_robot/tina-master/prebuilt/gcc/linux-x86/arm/toolchain-sunxi-musl/toolchain/bin/../lib/gcc -L/home/c/yunshi_robot/tina-master/prebuilt/gcc/linux-x86/arm/toolchain-sunxi-musl/toolchain/bin/../lib/gcc/arm-openwrt-linux-muslgnueabi/6.4.1/../../../../arm-openwrt-linux-muslgnueabi/lib CMakeFiles/cmTC_93abf.dir/CMakeCCompilerABI.c.o -lssp_nonshared -lgcc_s -lc -lgcc_s /home/c/yunshi_robot/tina-master/prebuilt/gcc/linux-x86/arm/toolchain-sunxi-musl/toolchain/bin/../lib/gcc/arm-openwrt-linux-muslgnueabi/6.4.1/crtend.o /home/c/yunshi_robot/tina-master/prebuilt/gcc/linux-x86/arm/toolchain-sunxi-musl/toolchain/bin/../lib/gcc/arm-openwrt-linux-muslgnueabi/6.4.1/../../../../arm-openwrt-linux-muslgnueabi/lib/crtn.o]
+    arg [/home/c/yunshi_robot/tina-master/prebuilt/gcc/linux-x86/arm/toolchain-sunxi-musl/toolchain/bin/../libexec/gcc/arm-openwrt-linux-muslgnueabi/6.4.1/collect2] ==> ignore
+    arg [-plugin] ==> ignore
+    arg [/home/c/yunshi_robot/tina-master/prebuilt/gcc/linux-x86/arm/toolchain-sunxi-musl/toolchain/bin/../libexec/gcc/arm-openwrt-linux-muslgnueabi/6.4.1/liblto_plugin.so] ==> ignore
+    arg [-plugin-opt=/home/c/yunshi_robot/tina-master/prebuilt/gcc/linux-x86/arm/toolchain-sunxi-musl/toolchain/bin/../libexec/gcc/arm-openwrt-linux-muslgnueabi/6.4.1/lto-wrapper] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/ccinJnxn.res] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [-plugin-opt=-pass-through=-lc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [--eh-frame-hdr] ==> ignore
+    arg [-export-dynamic] ==> ignore
+    arg [-dynamic-linker] ==> ignore
+    arg [/lib/ld-musl-armhf.so.1] ==> ignore
+    arg [-X] ==> ignore
+    arg [-m] ==> ignore
+    arg [armelf_linux_eabi] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_93abf] ==> ignore
+    arg [/home/c/yunshi_robot/tina-master/prebuilt/gcc/linux-x86/arm/toolchain-sunxi-musl/toolchain/bin/../lib/gcc/arm-openwrt-linux-muslgnueabi/6.4.1/../../../../arm-openwrt-linux-muslgnueabi/lib/crt1.o] ==> ignore
+    arg [/home/c/yunshi_robot/tina-master/prebuilt/gcc/linux-x86/arm/toolchain-sunxi-musl/toolchain/bin/../lib/gcc/arm-openwrt-linux-muslgnueabi/6.4.1/../../../../arm-openwrt-linux-muslgnueabi/lib/crti.o] ==> ignore
+    arg [/home/c/yunshi_robot/tina-master/prebuilt/gcc/linux-x86/arm/toolchain-sunxi-musl/toolchain/bin/../lib/gcc/arm-openwrt-linux-muslgnueabi/6.4.1/crtbegin.o] ==> ignore
+    arg [-L/home/c/yunshi_robot/tina-master/prebuilt/gcc/linux-x86/arm/toolchain-sunxi-musl/toolchain/bin:/home/c/yunshi_robot/tina-master/prebuilt/gcc/linux-x86/arm/toolchain-sunxi-musl/toolchain/bin:/usr/lib] ==> dir [/home/c/yunshi_robot/tina-master/prebuilt/gcc/linux-x86/arm/toolchain-sunxi-musl/toolchain/bin:/home/c/yunshi_robot/tina-master/prebuilt/gcc/linux-x86/arm/toolchain-sunxi-musl/toolchain/bin:/usr/lib]
+    arg [-rpath-link] ==> ignore
+    arg [/home/c/yunshi_robot/tina-master/prebuilt/gcc/linux-x86/arm/toolchain-sunxi-musl/toolchain/bin:/home/c/yunshi_robot/tina-master/prebuilt/gcc/linux-x86/arm/toolchain-sunxi-musl/toolchain/bin:/usr/lib] ==> ignore
+    arg [-L/home/c/yunshi_robot/tina-master/prebuilt/gcc/linux-x86/arm/toolchain-sunxi-musl/toolchain/bin/../lib/gcc/arm-openwrt-linux-muslgnueabi/6.4.1] ==> dir [/home/c/yunshi_robot/tina-master/prebuilt/gcc/linux-x86/arm/toolchain-sunxi-musl/toolchain/bin/../lib/gcc/arm-openwrt-linux-muslgnueabi/6.4.1]
+    arg [-L/home/c/yunshi_robot/tina-master/prebuilt/gcc/linux-x86/arm/toolchain-sunxi-musl/toolchain/bin/../lib/gcc] ==> dir [/home/c/yunshi_robot/tina-master/prebuilt/gcc/linux-x86/arm/toolchain-sunxi-musl/toolchain/bin/../lib/gcc]
+    arg [-L/home/c/yunshi_robot/tina-master/prebuilt/gcc/linux-x86/arm/toolchain-sunxi-musl/toolchain/bin/../lib/gcc/arm-openwrt-linux-muslgnueabi/6.4.1/../../../../arm-openwrt-linux-muslgnueabi/lib] ==> dir [/home/c/yunshi_robot/tina-master/prebuilt/gcc/linux-x86/arm/toolchain-sunxi-musl/toolchain/bin/../lib/gcc/arm-openwrt-linux-muslgnueabi/6.4.1/../../../../arm-openwrt-linux-muslgnueabi/lib]
+    arg [CMakeFiles/cmTC_93abf.dir/CMakeCCompilerABI.c.o] ==> ignore
+    arg [-lssp_nonshared] ==> lib [ssp_nonshared]
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [-lc] ==> lib [c]
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [/home/c/yunshi_robot/tina-master/prebuilt/gcc/linux-x86/arm/toolchain-sunxi-musl/toolchain/bin/../lib/gcc/arm-openwrt-linux-muslgnueabi/6.4.1/crtend.o] ==> ignore
+    arg [/home/c/yunshi_robot/tina-master/prebuilt/gcc/linux-x86/arm/toolchain-sunxi-musl/toolchain/bin/../lib/gcc/arm-openwrt-linux-muslgnueabi/6.4.1/../../../../arm-openwrt-linux-muslgnueabi/lib/crtn.o] ==> ignore
+  remove lib [gcc_s]
+  remove lib [gcc_s]
+  collapse library dir [/home/c/yunshi_robot/tina-master/prebuilt/gcc/linux-x86/arm/toolchain-sunxi-musl/toolchain/bin:/home/c/yunshi_robot/tina-master/prebuilt/gcc/linux-x86/arm/toolchain-sunxi-musl/toolchain/bin:/usr/lib] ==> [/home/c/yunshi_robot/tina-master/prebuilt/gcc/linux-x86/arm/toolchain-sunxi-musl/toolchain/bin:/home/c/yunshi_robot/tina-master/prebuilt/gcc/linux-x86/arm/toolchain-sunxi-musl/toolchain/bin:/usr/lib]
+  collapse library dir [/home/c/yunshi_robot/tina-master/prebuilt/gcc/linux-x86/arm/toolchain-sunxi-musl/toolchain/bin/../lib/gcc/arm-openwrt-linux-muslgnueabi/6.4.1] ==> [/home/c/yunshi_robot/tina-master/prebuilt/gcc/linux-x86/arm/toolchain-sunxi-musl/toolchain/lib/gcc/arm-openwrt-linux-muslgnueabi/6.4.1]
+  collapse library dir [/home/c/yunshi_robot/tina-master/prebuilt/gcc/linux-x86/arm/toolchain-sunxi-musl/toolchain/bin/../lib/gcc] ==> [/home/c/yunshi_robot/tina-master/prebuilt/gcc/linux-x86/arm/toolchain-sunxi-musl/toolchain/lib/gcc]
+  collapse library dir [/home/c/yunshi_robot/tina-master/prebuilt/gcc/linux-x86/arm/toolchain-sunxi-musl/toolchain/bin/../lib/gcc/arm-openwrt-linux-muslgnueabi/6.4.1/../../../../arm-openwrt-linux-muslgnueabi/lib] ==> [/home/c/yunshi_robot/tina-master/prebuilt/gcc/linux-x86/arm/toolchain-sunxi-musl/toolchain/arm-openwrt-linux-muslgnueabi/lib]
+  implicit libs: [ssp_nonshared;c]
+  implicit dirs: [/home/c/yunshi_robot/tina-master/prebuilt/gcc/linux-x86/arm/toolchain-sunxi-musl/toolchain/bin:/home/c/yunshi_robot/tina-master/prebuilt/gcc/linux-x86/arm/toolchain-sunxi-musl/toolchain/bin:/usr/lib;/home/c/yunshi_robot/tina-master/prebuilt/gcc/linux-x86/arm/toolchain-sunxi-musl/toolchain/lib/gcc/arm-openwrt-linux-muslgnueabi/6.4.1;/home/c/yunshi_robot/tina-master/prebuilt/gcc/linux-x86/arm/toolchain-sunxi-musl/toolchain/lib/gcc;/home/c/yunshi_robot/tina-master/prebuilt/gcc/linux-x86/arm/toolchain-sunxi-musl/toolchain/arm-openwrt-linux-muslgnueabi/lib]
+  implicit fwks: []
+
+
+
+
+Detecting C [-std=c11] compiler features compiled with the following output:
+Change Dir: /home/c/umouse/codetest/myProject/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/ninja" "cmTC_ea862"
+[1/2] Building C object CMakeFiles/cmTC_ea862.dir/feature_tests.c.o
+[2/2] Linking C executable cmTC_ea862
+
+
+    Feature record: C_FEATURE:1c_function_prototypes
+    Feature record: C_FEATURE:1c_restrict
+    Feature record: C_FEATURE:1c_static_assert
+    Feature record: C_FEATURE:1c_variadic_macros
+
+
+Detecting C [-std=c99] compiler features compiled with the following output:
+Change Dir: /home/c/umouse/codetest/myProject/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/ninja" "cmTC_c5379"
+[1/2] Building C object CMakeFiles/cmTC_c5379.dir/feature_tests.c.o
+[2/2] Linking C executable cmTC_c5379
+
+
+    Feature record: C_FEATURE:1c_function_prototypes
+    Feature record: C_FEATURE:1c_restrict
+    Feature record: C_FEATURE:0c_static_assert
+    Feature record: C_FEATURE:1c_variadic_macros
+
+
+Detecting C [-std=c90] compiler features compiled with the following output:
+Change Dir: /home/c/umouse/codetest/myProject/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/ninja" "cmTC_517a8"
+[1/2] Building C object CMakeFiles/cmTC_517a8.dir/feature_tests.c.o
+[2/2] Linking C executable cmTC_517a8
+
+
+    Feature record: C_FEATURE:1c_function_prototypes
+    Feature record: C_FEATURE:0c_restrict
+    Feature record: C_FEATURE:0c_static_assert
+    Feature record: C_FEATURE:0c_variadic_macros
+Determining if the CXX compiler works passed with the following output:
+Change Dir: /home/c/umouse/codetest/myProject/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/ninja" "cmTC_927e1"
+[1/2] Building CXX object CMakeFiles/cmTC_927e1.dir/testCXXCompiler.cxx.o
+[2/2] Linking CXX executable cmTC_927e1
+
+
+Detecting CXX compiler ABI info compiled with the following output:
+Change Dir: /home/c/umouse/codetest/myProject/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/ninja" "cmTC_7c279"
+[1/2] Building CXX object CMakeFiles/cmTC_7c279.dir/CMakeCXXCompilerABI.cpp.o
+[2/2] Linking CXX executable cmTC_7c279
+Reading specs from /home/c/yunshi_robot/tina-master/prebuilt/gcc/linux-x86/arm/toolchain-sunxi-musl/toolchain/bin/../lib/gcc/arm-openwrt-linux-muslgnueabi/6.4.1/specs
+COLLECT_GCC=arm-openwrt-linux-muslgnueabi-g++.bin
+COLLECT_LTO_WRAPPER=/home/c/yunshi_robot/tina-master/prebuilt/gcc/linux-x86/arm/toolchain-sunxi-musl/toolchain/bin/../libexec/gcc/arm-openwrt-linux-muslgnueabi/6.4.1/lto-wrapper
+Target: arm-openwrt-linux-muslgnueabi
+Configured with: /home/caiyongheng/tina/out/astar-parrot/compile_dir/toolchain/gcc-linaro-6.4-2017.11/configure --with-bugurl=https://dev.openwrt.org/ --with-pkgversion='OpenWrt/Linaro GCC 6.4-2017.11 2017-11' --prefix=/home/caiyongheng/tina/out/astar-parrot/staging_dir/toolchain --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=arm-openwrt-linux-muslgnueabi --with-gnu-ld --enable-target-optspace --enable-libgomp --disable-libmudflap --disable-multilib --disable-nls --without-isl --without-cloog --with-host-libstdcxx=-lstdc++ --with-gmp=/home/caiyongheng/tina/out/host --with-mpfr=/home/caiyongheng/tina/out/host --with-mpc=/home/caiyongheng/tina/out/host --disable-decimal-float --with-diagnostics-color=auto-if-env --disable-libssp --enable-__cxa_atexit --with-arch=armv7-a --with-float=hard --with-headers=/home/caiyongheng/tina/out/astar-parrot/staging_dir/toolchain/include --disable-libsanitizer --enable-languages=c,c++ --enable-shared --enable-threads --with-slibdir=/home/caiyongheng/tina/out/astar-parrot/staging_dir/toolchain/lib --enable-lto --with-libelf=/home/caiyongheng/tina/out/host
+Thread model: posix
+gcc version 6.4.1 (OpenWrt/Linaro GCC 6.4-2017.11 2017-11) 
+COMPILER_PATH=/home/c/yunshi_robot/tina-master/prebuilt/gcc/linux-x86/arm/toolchain-sunxi-musl/toolchain/bin/../libexec/gcc/arm-openwrt-linux-muslgnueabi/6.4.1/:/home/c/yunshi_robot/tina-master/prebuilt/gcc/linux-x86/arm/toolchain-sunxi-musl/toolchain/bin/../libexec/gcc/:/home/c/yunshi_robot/tina-master/prebuilt/gcc/linux-x86/arm/toolchain-sunxi-musl/toolchain/bin/../lib/gcc/arm-openwrt-linux-muslgnueabi/6.4.1/../../../../arm-openwrt-linux-muslgnueabi/bin/
+LIBRARY_PATH=/home/c/yunshi_robot/tina-master/prebuilt/gcc/linux-x86/arm/toolchain-sunxi-musl/toolchain/bin/../lib/gcc/arm-openwrt-linux-muslgnueabi/6.4.1/:/home/c/yunshi_robot/tina-master/prebuilt/gcc/linux-x86/arm/toolchain-sunxi-musl/toolchain/bin/../lib/gcc/:/home/c/yunshi_robot/tina-master/prebuilt/gcc/linux-x86/arm/toolchain-sunxi-musl/toolchain/bin/../lib/gcc/arm-openwrt-linux-muslgnueabi/6.4.1/../../../../arm-openwrt-linux-muslgnueabi/lib/
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_7c279' '-rdynamic' '-shared-libgcc' '-march=armv7-a' '-mfloat-abi=hard' '-mtls-dialect=gnu'
+ /home/c/yunshi_robot/tina-master/prebuilt/gcc/linux-x86/arm/toolchain-sunxi-musl/toolchain/bin/../libexec/gcc/arm-openwrt-linux-muslgnueabi/6.4.1/collect2 -plugin /home/c/yunshi_robot/tina-master/prebuilt/gcc/linux-x86/arm/toolchain-sunxi-musl/toolchain/bin/../libexec/gcc/arm-openwrt-linux-muslgnueabi/6.4.1/liblto_plugin.so -plugin-opt=/home/c/yunshi_robot/tina-master/prebuilt/gcc/linux-x86/arm/toolchain-sunxi-musl/toolchain/bin/../libexec/gcc/arm-openwrt-linux-muslgnueabi/6.4.1/lto-wrapper -plugin-opt=-fresolution=/tmp/ccU1PZmK.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s --eh-frame-hdr -export-dynamic -dynamic-linker /lib/ld-musl-armhf.so.1 -X -m armelf_linux_eabi -o cmTC_7c279 /home/c/yunshi_robot/tina-master/prebuilt/gcc/linux-x86/arm/toolchain-sunxi-musl/toolchain/bin/../lib/gcc/arm-openwrt-linux-muslgnueabi/6.4.1/../../../../arm-openwrt-linux-muslgnueabi/lib/crt1.o /home/c/yunshi_robot/tina-master/prebuilt/gcc/linux-x86/arm/toolchain-sunxi-musl/toolchain/bin/../lib/gcc/arm-openwrt-linux-muslgnueabi/6.4.1/../../../../arm-openwrt-linux-muslgnueabi/lib/crti.o /home/c/yunshi_robot/tina-master/prebuilt/gcc/linux-x86/arm/toolchain-sunxi-musl/toolchain/bin/../lib/gcc/arm-openwrt-linux-muslgnueabi/6.4.1/crtbegin.o -L /home/c/yunshi_robot/tina-master/prebuilt/gcc/linux-x86/arm/toolchain-sunxi-musl/toolchain/bin:/home/c/yunshi_robot/tina-master/prebuilt/gcc/linux-x86/arm/toolchain-sunxi-musl/toolchain/bin:/usr/lib -rpath-link /home/c/yunshi_robot/tina-master/prebuilt/gcc/linux-x86/arm/toolchain-sunxi-musl/toolchain/bin:/home/c/yunshi_robot/tina-master/prebuilt/gcc/linux-x86/arm/toolchain-sunxi-musl/toolchain/bin:/usr/lib -L/home/c/yunshi_robot/tina-master/prebuilt/gcc/linux-x86/arm/toolchain-sunxi-musl/toolchain/bin/../lib/gcc/arm-openwrt-linux-muslgnueabi/6.4.1 -L/home/c/yunshi_robot/tina-master/prebuilt/gcc/linux-x86/arm/toolchain-sunxi-musl/toolchain/bin/../lib/gcc -L/home/c/yunshi_robot/tina-master/prebuilt/gcc/linux-x86/arm/toolchain-sunxi-musl/toolchain/bin/../lib/gcc/arm-openwrt-linux-muslgnueabi/6.4.1/../../../../arm-openwrt-linux-muslgnueabi/lib CMakeFiles/cmTC_7c279.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lssp_nonshared -lgcc_s -lc -lgcc_s /home/c/yunshi_robot/tina-master/prebuilt/gcc/linux-x86/arm/toolchain-sunxi-musl/toolchain/bin/../lib/gcc/arm-openwrt-linux-muslgnueabi/6.4.1/crtend.o /home/c/yunshi_robot/tina-master/prebuilt/gcc/linux-x86/arm/toolchain-sunxi-musl/toolchain/bin/../lib/gcc/arm-openwrt-linux-muslgnueabi/6.4.1/../../../../arm-openwrt-linux-muslgnueabi/lib/crtn.o
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_7c279' '-rdynamic' '-shared-libgcc' '-march=armv7-a' '-mfloat-abi=hard' '-mtls-dialect=gnu'
+
+
+Parsed CXX implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /home/c/umouse/codetest/myProject/build/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command:"/usr/bin/ninja" "cmTC_7c279"]
+  ignore line: [[1/2] Building CXX object CMakeFiles/cmTC_7c279.dir/CMakeCXXCompilerABI.cpp.o]
+  ignore line: [[2/2] Linking CXX executable cmTC_7c279]
+  ignore line: [Reading specs from /home/c/yunshi_robot/tina-master/prebuilt/gcc/linux-x86/arm/toolchain-sunxi-musl/toolchain/bin/../lib/gcc/arm-openwrt-linux-muslgnueabi/6.4.1/specs]
+  ignore line: [COLLECT_GCC=arm-openwrt-linux-muslgnueabi-g++.bin]
+  ignore line: [COLLECT_LTO_WRAPPER=/home/c/yunshi_robot/tina-master/prebuilt/gcc/linux-x86/arm/toolchain-sunxi-musl/toolchain/bin/../libexec/gcc/arm-openwrt-linux-muslgnueabi/6.4.1/lto-wrapper]
+  ignore line: [Target: arm-openwrt-linux-muslgnueabi]
+  ignore line: [Configured with: /home/caiyongheng/tina/out/astar-parrot/compile_dir/toolchain/gcc-linaro-6.4-2017.11/configure --with-bugurl=https://dev.openwrt.org/ --with-pkgversion='OpenWrt/Linaro GCC 6.4-2017.11 2017-11' --prefix=/home/caiyongheng/tina/out/astar-parrot/staging_dir/toolchain --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=arm-openwrt-linux-muslgnueabi --with-gnu-ld --enable-target-optspace --enable-libgomp --disable-libmudflap --disable-multilib --disable-nls --without-isl --without-cloog --with-host-libstdcxx=-lstdc++ --with-gmp=/home/caiyongheng/tina/out/host --with-mpfr=/home/caiyongheng/tina/out/host --with-mpc=/home/caiyongheng/tina/out/host --disable-decimal-float --with-diagnostics-color=auto-if-env --disable-libssp --enable-__cxa_atexit --with-arch=armv7-a --with-float=hard --with-headers=/home/caiyongheng/tina/out/astar-parrot/staging_dir/toolchain/include --disable-libsanitizer --enable-languages=c,c++ --enable-shared --enable-threads --with-slibdir=/home/caiyongheng/tina/out/astar-parrot/staging_dir/toolchain/lib --enable-lto --with-libelf=/home/caiyongheng/tina/out/host]
+  ignore line: [Thread model: posix]
+  ignore line: [gcc version 6.4.1 (OpenWrt/Linaro GCC 6.4-2017.11 2017-11) ]
+  ignore line: [COMPILER_PATH=/home/c/yunshi_robot/tina-master/prebuilt/gcc/linux-x86/arm/toolchain-sunxi-musl/toolchain/bin/../libexec/gcc/arm-openwrt-linux-muslgnueabi/6.4.1/:/home/c/yunshi_robot/tina-master/prebuilt/gcc/linux-x86/arm/toolchain-sunxi-musl/toolchain/bin/../libexec/gcc/:/home/c/yunshi_robot/tina-master/prebuilt/gcc/linux-x86/arm/toolchain-sunxi-musl/toolchain/bin/../lib/gcc/arm-openwrt-linux-muslgnueabi/6.4.1/../../../../arm-openwrt-linux-muslgnueabi/bin/]
+  ignore line: [LIBRARY_PATH=/home/c/yunshi_robot/tina-master/prebuilt/gcc/linux-x86/arm/toolchain-sunxi-musl/toolchain/bin/../lib/gcc/arm-openwrt-linux-muslgnueabi/6.4.1/:/home/c/yunshi_robot/tina-master/prebuilt/gcc/linux-x86/arm/toolchain-sunxi-musl/toolchain/bin/../lib/gcc/:/home/c/yunshi_robot/tina-master/prebuilt/gcc/linux-x86/arm/toolchain-sunxi-musl/toolchain/bin/../lib/gcc/arm-openwrt-linux-muslgnueabi/6.4.1/../../../../arm-openwrt-linux-muslgnueabi/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_7c279' '-rdynamic' '-shared-libgcc' '-march=armv7-a' '-mfloat-abi=hard' '-mtls-dialect=gnu']
+  link line: [ /home/c/yunshi_robot/tina-master/prebuilt/gcc/linux-x86/arm/toolchain-sunxi-musl/toolchain/bin/../libexec/gcc/arm-openwrt-linux-muslgnueabi/6.4.1/collect2 -plugin /home/c/yunshi_robot/tina-master/prebuilt/gcc/linux-x86/arm/toolchain-sunxi-musl/toolchain/bin/../libexec/gcc/arm-openwrt-linux-muslgnueabi/6.4.1/liblto_plugin.so -plugin-opt=/home/c/yunshi_robot/tina-master/prebuilt/gcc/linux-x86/arm/toolchain-sunxi-musl/toolchain/bin/../libexec/gcc/arm-openwrt-linux-muslgnueabi/6.4.1/lto-wrapper -plugin-opt=-fresolution=/tmp/ccU1PZmK.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s --eh-frame-hdr -export-dynamic -dynamic-linker /lib/ld-musl-armhf.so.1 -X -m armelf_linux_eabi -o cmTC_7c279 /home/c/yunshi_robot/tina-master/prebuilt/gcc/linux-x86/arm/toolchain-sunxi-musl/toolchain/bin/../lib/gcc/arm-openwrt-linux-muslgnueabi/6.4.1/../../../../arm-openwrt-linux-muslgnueabi/lib/crt1.o /home/c/yunshi_robot/tina-master/prebuilt/gcc/linux-x86/arm/toolchain-sunxi-musl/toolchain/bin/../lib/gcc/arm-openwrt-linux-muslgnueabi/6.4.1/../../../../arm-openwrt-linux-muslgnueabi/lib/crti.o /home/c/yunshi_robot/tina-master/prebuilt/gcc/linux-x86/arm/toolchain-sunxi-musl/toolchain/bin/../lib/gcc/arm-openwrt-linux-muslgnueabi/6.4.1/crtbegin.o -L /home/c/yunshi_robot/tina-master/prebuilt/gcc/linux-x86/arm/toolchain-sunxi-musl/toolchain/bin:/home/c/yunshi_robot/tina-master/prebuilt/gcc/linux-x86/arm/toolchain-sunxi-musl/toolchain/bin:/usr/lib -rpath-link /home/c/yunshi_robot/tina-master/prebuilt/gcc/linux-x86/arm/toolchain-sunxi-musl/toolchain/bin:/home/c/yunshi_robot/tina-master/prebuilt/gcc/linux-x86/arm/toolchain-sunxi-musl/toolchain/bin:/usr/lib -L/home/c/yunshi_robot/tina-master/prebuilt/gcc/linux-x86/arm/toolchain-sunxi-musl/toolchain/bin/../lib/gcc/arm-openwrt-linux-muslgnueabi/6.4.1 -L/home/c/yunshi_robot/tina-master/prebuilt/gcc/linux-x86/arm/toolchain-sunxi-musl/toolchain/bin/../lib/gcc -L/home/c/yunshi_robot/tina-master/prebuilt/gcc/linux-x86/arm/toolchain-sunxi-musl/toolchain/bin/../lib/gcc/arm-openwrt-linux-muslgnueabi/6.4.1/../../../../arm-openwrt-linux-muslgnueabi/lib CMakeFiles/cmTC_7c279.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lssp_nonshared -lgcc_s -lc -lgcc_s /home/c/yunshi_robot/tina-master/prebuilt/gcc/linux-x86/arm/toolchain-sunxi-musl/toolchain/bin/../lib/gcc/arm-openwrt-linux-muslgnueabi/6.4.1/crtend.o /home/c/yunshi_robot/tina-master/prebuilt/gcc/linux-x86/arm/toolchain-sunxi-musl/toolchain/bin/../lib/gcc/arm-openwrt-linux-muslgnueabi/6.4.1/../../../../arm-openwrt-linux-muslgnueabi/lib/crtn.o]
+    arg [/home/c/yunshi_robot/tina-master/prebuilt/gcc/linux-x86/arm/toolchain-sunxi-musl/toolchain/bin/../libexec/gcc/arm-openwrt-linux-muslgnueabi/6.4.1/collect2] ==> ignore
+    arg [-plugin] ==> ignore
+    arg [/home/c/yunshi_robot/tina-master/prebuilt/gcc/linux-x86/arm/toolchain-sunxi-musl/toolchain/bin/../libexec/gcc/arm-openwrt-linux-muslgnueabi/6.4.1/liblto_plugin.so] ==> ignore
+    arg [-plugin-opt=/home/c/yunshi_robot/tina-master/prebuilt/gcc/linux-x86/arm/toolchain-sunxi-musl/toolchain/bin/../libexec/gcc/arm-openwrt-linux-muslgnueabi/6.4.1/lto-wrapper] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/ccU1PZmK.res] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [-plugin-opt=-pass-through=-lc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [--eh-frame-hdr] ==> ignore
+    arg [-export-dynamic] ==> ignore
+    arg [-dynamic-linker] ==> ignore
+    arg [/lib/ld-musl-armhf.so.1] ==> ignore
+    arg [-X] ==> ignore
+    arg [-m] ==> ignore
+    arg [armelf_linux_eabi] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_7c279] ==> ignore
+    arg [/home/c/yunshi_robot/tina-master/prebuilt/gcc/linux-x86/arm/toolchain-sunxi-musl/toolchain/bin/../lib/gcc/arm-openwrt-linux-muslgnueabi/6.4.1/../../../../arm-openwrt-linux-muslgnueabi/lib/crt1.o] ==> ignore
+    arg [/home/c/yunshi_robot/tina-master/prebuilt/gcc/linux-x86/arm/toolchain-sunxi-musl/toolchain/bin/../lib/gcc/arm-openwrt-linux-muslgnueabi/6.4.1/../../../../arm-openwrt-linux-muslgnueabi/lib/crti.o] ==> ignore
+    arg [/home/c/yunshi_robot/tina-master/prebuilt/gcc/linux-x86/arm/toolchain-sunxi-musl/toolchain/bin/../lib/gcc/arm-openwrt-linux-muslgnueabi/6.4.1/crtbegin.o] ==> ignore
+    arg [-L/home/c/yunshi_robot/tina-master/prebuilt/gcc/linux-x86/arm/toolchain-sunxi-musl/toolchain/bin:/home/c/yunshi_robot/tina-master/prebuilt/gcc/linux-x86/arm/toolchain-sunxi-musl/toolchain/bin:/usr/lib] ==> dir [/home/c/yunshi_robot/tina-master/prebuilt/gcc/linux-x86/arm/toolchain-sunxi-musl/toolchain/bin:/home/c/yunshi_robot/tina-master/prebuilt/gcc/linux-x86/arm/toolchain-sunxi-musl/toolchain/bin:/usr/lib]
+    arg [-rpath-link] ==> ignore
+    arg [/home/c/yunshi_robot/tina-master/prebuilt/gcc/linux-x86/arm/toolchain-sunxi-musl/toolchain/bin:/home/c/yunshi_robot/tina-master/prebuilt/gcc/linux-x86/arm/toolchain-sunxi-musl/toolchain/bin:/usr/lib] ==> ignore
+    arg [-L/home/c/yunshi_robot/tina-master/prebuilt/gcc/linux-x86/arm/toolchain-sunxi-musl/toolchain/bin/../lib/gcc/arm-openwrt-linux-muslgnueabi/6.4.1] ==> dir [/home/c/yunshi_robot/tina-master/prebuilt/gcc/linux-x86/arm/toolchain-sunxi-musl/toolchain/bin/../lib/gcc/arm-openwrt-linux-muslgnueabi/6.4.1]
+    arg [-L/home/c/yunshi_robot/tina-master/prebuilt/gcc/linux-x86/arm/toolchain-sunxi-musl/toolchain/bin/../lib/gcc] ==> dir [/home/c/yunshi_robot/tina-master/prebuilt/gcc/linux-x86/arm/toolchain-sunxi-musl/toolchain/bin/../lib/gcc]
+    arg [-L/home/c/yunshi_robot/tina-master/prebuilt/gcc/linux-x86/arm/toolchain-sunxi-musl/toolchain/bin/../lib/gcc/arm-openwrt-linux-muslgnueabi/6.4.1/../../../../arm-openwrt-linux-muslgnueabi/lib] ==> dir [/home/c/yunshi_robot/tina-master/prebuilt/gcc/linux-x86/arm/toolchain-sunxi-musl/toolchain/bin/../lib/gcc/arm-openwrt-linux-muslgnueabi/6.4.1/../../../../arm-openwrt-linux-muslgnueabi/lib]
+    arg [CMakeFiles/cmTC_7c279.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+    arg [-lstdc++] ==> lib [stdc++]
+    arg [-lm] ==> lib [m]
+    arg [-lssp_nonshared] ==> lib [ssp_nonshared]
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [-lc] ==> lib [c]
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [/home/c/yunshi_robot/tina-master/prebuilt/gcc/linux-x86/arm/toolchain-sunxi-musl/toolchain/bin/../lib/gcc/arm-openwrt-linux-muslgnueabi/6.4.1/crtend.o] ==> ignore
+    arg [/home/c/yunshi_robot/tina-master/prebuilt/gcc/linux-x86/arm/toolchain-sunxi-musl/toolchain/bin/../lib/gcc/arm-openwrt-linux-muslgnueabi/6.4.1/../../../../arm-openwrt-linux-muslgnueabi/lib/crtn.o] ==> ignore
+  remove lib [gcc_s]
+  remove lib [gcc_s]
+  collapse library dir [/home/c/yunshi_robot/tina-master/prebuilt/gcc/linux-x86/arm/toolchain-sunxi-musl/toolchain/bin:/home/c/yunshi_robot/tina-master/prebuilt/gcc/linux-x86/arm/toolchain-sunxi-musl/toolchain/bin:/usr/lib] ==> [/home/c/yunshi_robot/tina-master/prebuilt/gcc/linux-x86/arm/toolchain-sunxi-musl/toolchain/bin:/home/c/yunshi_robot/tina-master/prebuilt/gcc/linux-x86/arm/toolchain-sunxi-musl/toolchain/bin:/usr/lib]
+  collapse library dir [/home/c/yunshi_robot/tina-master/prebuilt/gcc/linux-x86/arm/toolchain-sunxi-musl/toolchain/bin/../lib/gcc/arm-openwrt-linux-muslgnueabi/6.4.1] ==> [/home/c/yunshi_robot/tina-master/prebuilt/gcc/linux-x86/arm/toolchain-sunxi-musl/toolchain/lib/gcc/arm-openwrt-linux-muslgnueabi/6.4.1]
+  collapse library dir [/home/c/yunshi_robot/tina-master/prebuilt/gcc/linux-x86/arm/toolchain-sunxi-musl/toolchain/bin/../lib/gcc] ==> [/home/c/yunshi_robot/tina-master/prebuilt/gcc/linux-x86/arm/toolchain-sunxi-musl/toolchain/lib/gcc]
+  collapse library dir [/home/c/yunshi_robot/tina-master/prebuilt/gcc/linux-x86/arm/toolchain-sunxi-musl/toolchain/bin/../lib/gcc/arm-openwrt-linux-muslgnueabi/6.4.1/../../../../arm-openwrt-linux-muslgnueabi/lib] ==> [/home/c/yunshi_robot/tina-master/prebuilt/gcc/linux-x86/arm/toolchain-sunxi-musl/toolchain/arm-openwrt-linux-muslgnueabi/lib]
+  implicit libs: [stdc++;m;ssp_nonshared;c]
+  implicit dirs: [/home/c/yunshi_robot/tina-master/prebuilt/gcc/linux-x86/arm/toolchain-sunxi-musl/toolchain/bin:/home/c/yunshi_robot/tina-master/prebuilt/gcc/linux-x86/arm/toolchain-sunxi-musl/toolchain/bin:/usr/lib;/home/c/yunshi_robot/tina-master/prebuilt/gcc/linux-x86/arm/toolchain-sunxi-musl/toolchain/lib/gcc/arm-openwrt-linux-muslgnueabi/6.4.1;/home/c/yunshi_robot/tina-master/prebuilt/gcc/linux-x86/arm/toolchain-sunxi-musl/toolchain/lib/gcc;/home/c/yunshi_robot/tina-master/prebuilt/gcc/linux-x86/arm/toolchain-sunxi-musl/toolchain/arm-openwrt-linux-muslgnueabi/lib]
+  implicit fwks: []
+
+
+
+
+Detecting CXX [-std=c++14] compiler features compiled with the following output:
+Change Dir: /home/c/umouse/codetest/myProject/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/ninja" "cmTC_364fa"
+[1/2] Building CXX object CMakeFiles/cmTC_364fa.dir/feature_tests.cxx.o
+[2/2] Linking CXX executable cmTC_364fa
+
+
+    Feature record: CXX_FEATURE:1cxx_aggregate_default_initializers
+    Feature record: CXX_FEATURE:1cxx_alias_templates
+    Feature record: CXX_FEATURE:1cxx_alignas
+    Feature record: CXX_FEATURE:1cxx_alignof
+    Feature record: CXX_FEATURE:1cxx_attributes
+    Feature record: CXX_FEATURE:1cxx_attribute_deprecated
+    Feature record: CXX_FEATURE:1cxx_auto_type
+    Feature record: CXX_FEATURE:1cxx_binary_literals
+    Feature record: CXX_FEATURE:1cxx_constexpr
+    Feature record: CXX_FEATURE:1cxx_contextual_conversions
+    Feature record: CXX_FEATURE:1cxx_decltype
+    Feature record: CXX_FEATURE:1cxx_decltype_auto
+    Feature record: CXX_FEATURE:1cxx_decltype_incomplete_return_types
+    Feature record: CXX_FEATURE:1cxx_default_function_template_args
+    Feature record: CXX_FEATURE:1cxx_defaulted_functions
+    Feature record: CXX_FEATURE:1cxx_defaulted_move_initializers
+    Feature record: CXX_FEATURE:1cxx_delegating_constructors
+    Feature record: CXX_FEATURE:1cxx_deleted_functions
+    Feature record: CXX_FEATURE:1cxx_digit_separators
+    Feature record: CXX_FEATURE:1cxx_enum_forward_declarations
+    Feature record: CXX_FEATURE:1cxx_explicit_conversions
+    Feature record: CXX_FEATURE:1cxx_extended_friend_declarations
+    Feature record: CXX_FEATURE:1cxx_extern_templates
+    Feature record: CXX_FEATURE:1cxx_final
+    Feature record: CXX_FEATURE:1cxx_func_identifier
+    Feature record: CXX_FEATURE:1cxx_generalized_initializers
+    Feature record: CXX_FEATURE:1cxx_generic_lambdas
+    Feature record: CXX_FEATURE:1cxx_inheriting_constructors
+    Feature record: CXX_FEATURE:1cxx_inline_namespaces
+    Feature record: CXX_FEATURE:1cxx_lambdas
+    Feature record: CXX_FEATURE:1cxx_lambda_init_captures
+    Feature record: CXX_FEATURE:1cxx_local_type_template_args
+    Feature record: CXX_FEATURE:1cxx_long_long_type
+    Feature record: CXX_FEATURE:1cxx_noexcept
+    Feature record: CXX_FEATURE:1cxx_nonstatic_member_init
+    Feature record: CXX_FEATURE:1cxx_nullptr
+    Feature record: CXX_FEATURE:1cxx_override
+    Feature record: CXX_FEATURE:1cxx_range_for
+    Feature record: CXX_FEATURE:1cxx_raw_string_literals
+    Feature record: CXX_FEATURE:1cxx_reference_qualified_functions
+    Feature record: CXX_FEATURE:1cxx_relaxed_constexpr
+    Feature record: CXX_FEATURE:1cxx_return_type_deduction
+    Feature record: CXX_FEATURE:1cxx_right_angle_brackets
+    Feature record: CXX_FEATURE:1cxx_rvalue_references
+    Feature record: CXX_FEATURE:1cxx_sizeof_member
+    Feature record: CXX_FEATURE:1cxx_static_assert
+    Feature record: CXX_FEATURE:1cxx_strong_enums
+    Feature record: CXX_FEATURE:1cxx_template_template_parameters
+    Feature record: CXX_FEATURE:1cxx_thread_local
+    Feature record: CXX_FEATURE:1cxx_trailing_return_types
+    Feature record: CXX_FEATURE:1cxx_unicode_literals
+    Feature record: CXX_FEATURE:1cxx_uniform_initialization
+    Feature record: CXX_FEATURE:1cxx_unrestricted_unions
+    Feature record: CXX_FEATURE:1cxx_user_literals
+    Feature record: CXX_FEATURE:1cxx_variable_templates
+    Feature record: CXX_FEATURE:1cxx_variadic_macros
+    Feature record: CXX_FEATURE:1cxx_variadic_templates
+
+
+Detecting CXX [-std=c++11] compiler features compiled with the following output:
+Change Dir: /home/c/umouse/codetest/myProject/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/ninja" "cmTC_9f4d1"
+[1/2] Building CXX object CMakeFiles/cmTC_9f4d1.dir/feature_tests.cxx.o
+[2/2] Linking CXX executable cmTC_9f4d1
+
+
+    Feature record: CXX_FEATURE:0cxx_aggregate_default_initializers
+    Feature record: CXX_FEATURE:1cxx_alias_templates
+    Feature record: CXX_FEATURE:1cxx_alignas
+    Feature record: CXX_FEATURE:1cxx_alignof
+    Feature record: CXX_FEATURE:1cxx_attributes
+    Feature record: CXX_FEATURE:0cxx_attribute_deprecated
+    Feature record: CXX_FEATURE:1cxx_auto_type
+    Feature record: CXX_FEATURE:0cxx_binary_literals
+    Feature record: CXX_FEATURE:1cxx_constexpr
+    Feature record: CXX_FEATURE:0cxx_contextual_conversions
+    Feature record: CXX_FEATURE:1cxx_decltype
+    Feature record: CXX_FEATURE:0cxx_decltype_auto
+    Feature record: CXX_FEATURE:1cxx_decltype_incomplete_return_types
+    Feature record: CXX_FEATURE:1cxx_default_function_template_args
+    Feature record: CXX_FEATURE:1cxx_defaulted_functions
+    Feature record: CXX_FEATURE:1cxx_defaulted_move_initializers
+    Feature record: CXX_FEATURE:1cxx_delegating_constructors
+    Feature record: CXX_FEATURE:1cxx_deleted_functions
+    Feature record: CXX_FEATURE:0cxx_digit_separators
+    Feature record: CXX_FEATURE:1cxx_enum_forward_declarations
+    Feature record: CXX_FEATURE:1cxx_explicit_conversions
+    Feature record: CXX_FEATURE:1cxx_extended_friend_declarations
+    Feature record: CXX_FEATURE:1cxx_extern_templates
+    Feature record: CXX_FEATURE:1cxx_final
+    Feature record: CXX_FEATURE:1cxx_func_identifier
+    Feature record: CXX_FEATURE:1cxx_generalized_initializers
+    Feature record: CXX_FEATURE:0cxx_generic_lambdas
+    Feature record: CXX_FEATURE:1cxx_inheriting_constructors
+    Feature record: CXX_FEATURE:1cxx_inline_namespaces
+    Feature record: CXX_FEATURE:1cxx_lambdas
+    Feature record: CXX_FEATURE:0cxx_lambda_init_captures
+    Feature record: CXX_FEATURE:1cxx_local_type_template_args
+    Feature record: CXX_FEATURE:1cxx_long_long_type
+    Feature record: CXX_FEATURE:1cxx_noexcept
+    Feature record: CXX_FEATURE:1cxx_nonstatic_member_init
+    Feature record: CXX_FEATURE:1cxx_nullptr
+    Feature record: CXX_FEATURE:1cxx_override
+    Feature record: CXX_FEATURE:1cxx_range_for
+    Feature record: CXX_FEATURE:1cxx_raw_string_literals
+    Feature record: CXX_FEATURE:1cxx_reference_qualified_functions
+    Feature record: CXX_FEATURE:0cxx_relaxed_constexpr
+    Feature record: CXX_FEATURE:0cxx_return_type_deduction
+    Feature record: CXX_FEATURE:1cxx_right_angle_brackets
+    Feature record: CXX_FEATURE:1cxx_rvalue_references
+    Feature record: CXX_FEATURE:1cxx_sizeof_member
+    Feature record: CXX_FEATURE:1cxx_static_assert
+    Feature record: CXX_FEATURE:1cxx_strong_enums
+    Feature record: CXX_FEATURE:1cxx_template_template_parameters
+    Feature record: CXX_FEATURE:1cxx_thread_local
+    Feature record: CXX_FEATURE:1cxx_trailing_return_types
+    Feature record: CXX_FEATURE:1cxx_unicode_literals
+    Feature record: CXX_FEATURE:1cxx_uniform_initialization
+    Feature record: CXX_FEATURE:1cxx_unrestricted_unions
+    Feature record: CXX_FEATURE:1cxx_user_literals
+    Feature record: CXX_FEATURE:0cxx_variable_templates
+    Feature record: CXX_FEATURE:1cxx_variadic_macros
+    Feature record: CXX_FEATURE:1cxx_variadic_templates
+
+
+Detecting CXX [-std=c++98] compiler features compiled with the following output:
+Change Dir: /home/c/umouse/codetest/myProject/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/ninja" "cmTC_34839"
+[1/2] Building CXX object CMakeFiles/cmTC_34839.dir/feature_tests.cxx.o
+[2/2] Linking CXX executable cmTC_34839
+
+
+    Feature record: CXX_FEATURE:0cxx_aggregate_default_initializers
+    Feature record: CXX_FEATURE:0cxx_alias_templates
+    Feature record: CXX_FEATURE:0cxx_alignas
+    Feature record: CXX_FEATURE:0cxx_alignof
+    Feature record: CXX_FEATURE:0cxx_attributes
+    Feature record: CXX_FEATURE:0cxx_attribute_deprecated
+    Feature record: CXX_FEATURE:0cxx_auto_type
+    Feature record: CXX_FEATURE:0cxx_binary_literals
+    Feature record: CXX_FEATURE:0cxx_constexpr
+    Feature record: CXX_FEATURE:0cxx_contextual_conversions
+    Feature record: CXX_FEATURE:0cxx_decltype
+    Feature record: CXX_FEATURE:0cxx_decltype_auto
+    Feature record: CXX_FEATURE:0cxx_decltype_incomplete_return_types
+    Feature record: CXX_FEATURE:0cxx_default_function_template_args
+    Feature record: CXX_FEATURE:0cxx_defaulted_functions
+    Feature record: CXX_FEATURE:0cxx_defaulted_move_initializers
+    Feature record: CXX_FEATURE:0cxx_delegating_constructors
+    Feature record: CXX_FEATURE:0cxx_deleted_functions
+    Feature record: CXX_FEATURE:0cxx_digit_separators
+    Feature record: CXX_FEATURE:0cxx_enum_forward_declarations
+    Feature record: CXX_FEATURE:0cxx_explicit_conversions
+    Feature record: CXX_FEATURE:0cxx_extended_friend_declarations
+    Feature record: CXX_FEATURE:0cxx_extern_templates
+    Feature record: CXX_FEATURE:0cxx_final
+    Feature record: CXX_FEATURE:0cxx_func_identifier
+    Feature record: CXX_FEATURE:0cxx_generalized_initializers
+    Feature record: CXX_FEATURE:0cxx_generic_lambdas
+    Feature record: CXX_FEATURE:0cxx_inheriting_constructors
+    Feature record: CXX_FEATURE:0cxx_inline_namespaces
+    Feature record: CXX_FEATURE:0cxx_lambdas
+    Feature record: CXX_FEATURE:0cxx_lambda_init_captures
+    Feature record: CXX_FEATURE:0cxx_local_type_template_args
+    Feature record: CXX_FEATURE:0cxx_long_long_type
+    Feature record: CXX_FEATURE:0cxx_noexcept
+    Feature record: CXX_FEATURE:0cxx_nonstatic_member_init
+    Feature record: CXX_FEATURE:0cxx_nullptr
+    Feature record: CXX_FEATURE:0cxx_override
+    Feature record: CXX_FEATURE:0cxx_range_for
+    Feature record: CXX_FEATURE:0cxx_raw_string_literals
+    Feature record: CXX_FEATURE:0cxx_reference_qualified_functions
+    Feature record: CXX_FEATURE:0cxx_relaxed_constexpr
+    Feature record: CXX_FEATURE:0cxx_return_type_deduction
+    Feature record: CXX_FEATURE:0cxx_right_angle_brackets
+    Feature record: CXX_FEATURE:0cxx_rvalue_references
+    Feature record: CXX_FEATURE:0cxx_sizeof_member
+    Feature record: CXX_FEATURE:0cxx_static_assert
+    Feature record: CXX_FEATURE:0cxx_strong_enums
+    Feature record: CXX_FEATURE:1cxx_template_template_parameters
+    Feature record: CXX_FEATURE:0cxx_thread_local
+    Feature record: CXX_FEATURE:0cxx_trailing_return_types
+    Feature record: CXX_FEATURE:0cxx_unicode_literals
+    Feature record: CXX_FEATURE:0cxx_uniform_initialization
+    Feature record: CXX_FEATURE:0cxx_unrestricted_unions
+    Feature record: CXX_FEATURE:0cxx_user_literals
+    Feature record: CXX_FEATURE:0cxx_variable_templates
+    Feature record: CXX_FEATURE:0cxx_variadic_macros
+    Feature record: CXX_FEATURE:0cxx_variadic_templates

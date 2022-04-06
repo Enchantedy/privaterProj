@@ -1,0 +1,25 @@
+[
+{
+  "directory": "/home/c/umouse/codetest/myProject/build",
+  "command": "/home/c/yunshi_robot/tina-master/prebuilt/gcc/linux-x86/arm/toolchain-sunxi-musl/toolchain/bin/arm-openwrt-linux-muslgnueabi-g++    -I../  -g   -std=c++11 -o CMakeFiles/proj.dir/src/main.cpp.o -c /home/c/umouse/codetest/myProject/src/main.cpp",
+  "file": "/home/c/umouse/codetest/myProject/src/main.cpp"
+},
+
+{
+  "directory": "/home/c/umouse/codetest/myProject/build",
+  "command": "/home/c/yunshi_robot/tina-master/prebuilt/gcc/linux-x86/arm/toolchain-sunxi-musl/toolchain/bin/arm-openwrt-linux-muslgnueabi-g++    -I../  -g   -std=c++11 -o CMakeFiles/proj.dir/src/skeletonService.cpp.o -c /home/c/umouse/codetest/myProject/src/skeletonService.cpp",
+  "file": "/home/c/umouse/codetest/myProject/src/skeletonService.cpp"
+},
+
+{
+  "directory": "/home/c/umouse/codetest/myProject/build",
+  "command": "/home/c/yunshi_robot/tina-master/prebuilt/gcc/linux-x86/arm/toolchain-sunxi-musl/toolchain/bin/arm-openwrt-linux-muslgnueabi-g++    -I../  -g   -std=c++11 -o CMakeFiles/proj.dir/src/manager.cpp.o -c /home/c/umouse/codetest/myProject/src/manager.cpp",
+  "file": "/home/c/umouse/codetest/myProject/src/manager.cpp"
+},
+
+{
+  "directory": "/home/c/umouse/codetest/myProject/build",
+  "command": "/home/c/yunshi_robot/tina-master/prebuilt/gcc/linux-x86/arm/toolchain-sunxi-musl/toolchain/bin/arm-openwrt-linux-muslgnueabi-g++    -I../  -g   -std=c++11 -o CMakeFiles/proj.dir/src/myList.cpp.o -c /home/c/umouse/codetest/myProject/src/myList.cpp",
+  "file": "/home/c/umouse/codetest/myProject/src/myList.cpp"
+}
+]

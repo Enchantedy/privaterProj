@@ -1,0 +1,6 @@
+# ninja log v5
+0	463	0	CMakeFiles/proj.dir/src/myList.cpp.o	edceaa1a5b337170
+0	549	0	CMakeFiles/proj.dir/src/main.cpp.o	de94efda68eecd2c
+0	658	0	CMakeFiles/proj.dir/src/manager.cpp.o	809343993aa32f30
+0	738	0	CMakeFiles/proj.dir/src/skeletonService.cpp.o	e9828f584c85d165
+738	857	0	proj	296a0097ef7c7e50
