@@ -39,7 +39,24 @@ int tail_insert_list(int num, struct list_node* head) {
 }
 
 int delete_list(int num, struct list_node* head) {
-
+    struct list_node* pos = head;
+    while(1)
+    {
+        if(pos->next == NULL) {
+            return -1;
+        }
+        else {
+            pos = pos->next;
+        }
+        if(pos->num == num)
+        {
+            struct list_node* tmp;
+            tmp = pos;
+            tmp = tmp->next->next;
+            pos->next = tmp;
+            return 0;
+        }
+    }
 }
 
 void show_list(struct list_node* head) {

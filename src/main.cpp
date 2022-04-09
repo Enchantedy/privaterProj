@@ -15,4 +15,6 @@ int main()
     tail_insert_list(4, head);
     tail_insert_list(5, head);
     show_list(head);
+    delete_list(5, head);
+    show_list(head);
 }
