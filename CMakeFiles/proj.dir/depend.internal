@@ -3,7 +3,9 @@
 
 CMakeFiles/proj.dir/src/main.cpp.o
  /home/c/umouse/codetest/myProject/src/main.cpp
+ include/alongWall.h
  include/singlyList.h
+ include/skeletonService.h
 CMakeFiles/proj.dir/src/manager.cpp.o
  /home/c/umouse/codetest/myProject/src/manager.cpp
  include/manager.h

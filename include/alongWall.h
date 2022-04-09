@@ -16,10 +16,12 @@ public:
             thread_ = nullptr;
         }
     }
+    int init();
     void startAlongWall();
     void stopAlongWall();
     bool wheelSpin();
     bool wheelBack();
+    int getState();
 protected:
     bool threadLoop();
 private:

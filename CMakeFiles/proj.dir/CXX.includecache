@@ -13,6 +13,8 @@ typeinfo
 -
 include/singlyList.h
 /home/c/umouse/codetest/myProject/src/include/singlyList.h
+include/alongWall.h
+/home/c/umouse/codetest/myProject/src/include/alongWall.h
 
 /home/c/umouse/codetest/myProject/src/manager.cpp
 include/manager.h
@@ -27,6 +29,10 @@ include/skeletonService.h
 /home/c/umouse/codetest/myProject/src/include/skeletonService.h
 typeinfo
 -
+
+include/alongWall.h
+skeletonService.h
+include/skeletonService.h
 
 include/manager.h
 iostream
