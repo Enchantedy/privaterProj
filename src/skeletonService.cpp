@@ -43,6 +43,7 @@ void SkeletonService::threadFunction()
     } else {
         tmp_name = name_;
     }
+    std::cout << "thread_name:" << tmp_name << std::endl;
     pthread_setname_np(pthread_self(), tmp_name.c_str());
     while (running_)
     {
