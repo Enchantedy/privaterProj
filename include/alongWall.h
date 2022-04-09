@@ -8,6 +8,14 @@ public:
     };
     
 public:
+    AlongWall(){}
+    ~AlongWall() 
+    { 
+        if (thread_->joinable()) {
+            thread_->join();
+            thread_ = nullptr;
+        }
+    }
     void startAlongWall();
     void stopAlongWall();
     bool wheelSpin();
