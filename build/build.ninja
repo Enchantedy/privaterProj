@@ -75,6 +75,12 @@ build CMakeFiles/proj.dir/src/singlyList.cpp.o: CXX_COMPILER__proj ../src/singly
   INCLUDES = -I../
   OBJECT_DIR = CMakeFiles/proj.dir
   OBJECT_FILE_DIR = CMakeFiles/proj.dir/src
+build CMakeFiles/proj.dir/src/alongWall.cpp.o: CXX_COMPILER__proj ../src/alongWall.cpp
+  DEP_FILE = CMakeFiles/proj.dir/src/alongWall.cpp.o.d
+  FLAGS = -g   -std=c++11
+  INCLUDES = -I../
+  OBJECT_DIR = CMakeFiles/proj.dir
+  OBJECT_FILE_DIR = CMakeFiles/proj.dir/src
 
 # =============================================================================
 # Link build statements for EXECUTABLE target proj
@@ -83,7 +89,7 @@ build CMakeFiles/proj.dir/src/singlyList.cpp.o: CXX_COMPILER__proj ../src/singly
 #############################################
 # Link the executable proj
 
-build proj: CXX_EXECUTABLE_LINKER__proj CMakeFiles/proj.dir/src/main.cpp.o CMakeFiles/proj.dir/src/skeletonService.cpp.o CMakeFiles/proj.dir/src/manager.cpp.o CMakeFiles/proj.dir/src/singlyList.cpp.o
+build proj: CXX_EXECUTABLE_LINKER__proj CMakeFiles/proj.dir/src/main.cpp.o CMakeFiles/proj.dir/src/skeletonService.cpp.o CMakeFiles/proj.dir/src/manager.cpp.o CMakeFiles/proj.dir/src/singlyList.cpp.o CMakeFiles/proj.dir/src/alongWall.cpp.o
   FLAGS = -g
   LINK_LIBRARIES = -rdynamic -lpthread
   OBJECT_DIR = CMakeFiles/proj.dir

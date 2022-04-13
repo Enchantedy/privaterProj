@@ -15,7 +15,7 @@ add_executable(proj
 /home/c/umouse/codetest/myProject/src/skeletonService.cpp
 /home/c/umouse/codetest/myProject/src/manager.cpp
 /home/c/umouse/codetest/myProject/src/singlyList.cpp
-/home/c/umouse/codetest/myProject/src/alongWall.cpp/
+/home/c/umouse/codetest/myProject/src/alongWall.cpp
 )
 
 target_link_libraries(proj pthread)

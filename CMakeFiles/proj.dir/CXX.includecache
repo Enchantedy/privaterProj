@@ -6,6 +6,10 @@
 
 #IncludeRegexTransform: 
 
+/home/c/umouse/codetest/myProject/src/alongWall.cpp
+include/alongWall.h
+/home/c/umouse/codetest/myProject/src/include/alongWall.h
+
 /home/c/umouse/codetest/myProject/src/main.cpp
 iostream
 /home/c/umouse/codetest/myProject/src/iostream

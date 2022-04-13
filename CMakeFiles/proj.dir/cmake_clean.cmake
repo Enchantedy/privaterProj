@@ -3,6 +3,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/proj.dir/src/skeletonService.cpp.o"
   "CMakeFiles/proj.dir/src/manager.cpp.o"
   "CMakeFiles/proj.dir/src/singlyList.cpp.o"
+  "CMakeFiles/proj.dir/src/alongWall.cpp.o"
   "proj.pdb"
   "proj"
 )

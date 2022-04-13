@@ -21,5 +21,11 @@
   "directory": "/home/c/umouse/codetest/myProject/build",
   "command": "/home/c/yunshi_robot/tina-master/prebuilt/gcc/linux-x86/arm/toolchain-sunxi-musl/toolchain/bin/arm-openwrt-linux-muslgnueabi-g++    -I../  -g   -std=c++11 -o CMakeFiles/proj.dir/src/singlyList.cpp.o -c /home/c/umouse/codetest/myProject/src/singlyList.cpp",
   "file": "/home/c/umouse/codetest/myProject/src/singlyList.cpp"
+},
+
+{
+  "directory": "/home/c/umouse/codetest/myProject/build",
+  "command": "/home/c/yunshi_robot/tina-master/prebuilt/gcc/linux-x86/arm/toolchain-sunxi-musl/toolchain/bin/arm-openwrt-linux-muslgnueabi-g++    -I../  -g   -std=c++11 -o CMakeFiles/proj.dir/src/alongWall.cpp.o -c /home/c/umouse/codetest/myProject/src/alongWall.cpp",
+  "file": "/home/c/umouse/codetest/myProject/src/alongWall.cpp"
 }
 ]

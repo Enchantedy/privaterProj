@@ -123,6 +123,33 @@ proj/fast:
 	$(MAKE) -f CMakeFiles/proj.dir/build.make CMakeFiles/proj.dir/build
 .PHONY : proj/fast
 
+src/alongWall.o: src/alongWall.cpp.o
+
+.PHONY : src/alongWall.o
+
+# target to build an object file
+src/alongWall.cpp.o:
+	$(MAKE) -f CMakeFiles/proj.dir/build.make CMakeFiles/proj.dir/src/alongWall.cpp.o
+.PHONY : src/alongWall.cpp.o
+
+src/alongWall.i: src/alongWall.cpp.i
+
+.PHONY : src/alongWall.i
+
+# target to preprocess a source file
+src/alongWall.cpp.i:
+	$(MAKE) -f CMakeFiles/proj.dir/build.make CMakeFiles/proj.dir/src/alongWall.cpp.i
+.PHONY : src/alongWall.cpp.i
+
+src/alongWall.s: src/alongWall.cpp.s
+
+.PHONY : src/alongWall.s
+
+# target to generate assembly for a file
+src/alongWall.cpp.s:
+	$(MAKE) -f CMakeFiles/proj.dir/build.make CMakeFiles/proj.dir/src/alongWall.cpp.s
+.PHONY : src/alongWall.cpp.s
+
 src/main.o: src/main.cpp.o
 
 .PHONY : src/main.o
@@ -240,6 +267,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... proj"
+	@echo "... src/alongWall.o"
+	@echo "... src/alongWall.i"
+	@echo "... src/alongWall.s"
 	@echo "... src/main.o"
 	@echo "... src/main.i"
 	@echo "... src/main.s"
