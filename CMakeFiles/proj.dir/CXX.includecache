@@ -37,6 +37,8 @@ typeinfo
 include/alongWall.h
 skeletonService.h
 include/skeletonService.h
+string.h
+-
 
 include/manager.h
 iostream
