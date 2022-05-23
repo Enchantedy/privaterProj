@@ -4,3 +4,6 @@
 0	658	0	CMakeFiles/proj.dir/src/manager.cpp.o	809343993aa32f30
 0	738	0	CMakeFiles/proj.dir/src/skeletonService.cpp.o	e9828f584c85d165
 738	857	0	proj	296a0097ef7c7e50
+1	843	0	CMakeFiles/proj.dir/src/singlyList.cpp.o	5b98d38bd61be510
+1	1136	0	CMakeFiles/proj.dir/src/manager.cpp.o	809343993aa32f30
+1	1306	0	CMakeFiles/proj.dir/src/skeletonService.cpp.o	e9828f584c85d165

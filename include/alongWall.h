@@ -8,61 +8,49 @@ public:
 
         BumpNo = 0,           //没有碰撞0
 
-        OBSSlow,              //全方位减速1
+        InsideVirtual,        //靠墙一侧有虚拟墙信号1
 
-        InsideVirtual,        //靠墙一侧有虚拟墙信号2
+        FrontVirtual,         //有虚拟墙信号2
 
-        FrontVirtual,         //有虚拟墙信号3
+        Bump,                   //碰撞3
 
-        BumpLeft ,            //左碰撞4
+        CliffLeft,            //左探地4
 
-        BumpRight,            //右碰撞5
+        CliffInter,           //中探地5
 
-        BumpInter,            //中碰撞6
+        CliffRight,           //右探地6
 
-        CliffLeft,            //左探地7
+        MagVirtualLeft,       //磁性虚拟墙左7
 
-        CliffInter,           //中探地8
+        MagVirtualInter,      //磁性虚拟墙中8
 
-        CliffRight,           //右探地9
+        MagVirtualRight,      //磁性虚拟器右9
 
-        MagVirtualLeft,       //磁性虚拟墙左10
+        OBSLeft,                //全方位左10
 
-        MagVirtualInter,      //磁性虚拟墙中11
+        OBSFront,               //全方位中11
 
-        MagVirtualRight,      //磁性虚拟器右12
+        OBSRight,               //全方位右12
 
-        OBSLeft,                //全方位左13
+        ForbidChargeFront,      //前禁区13
 
-        OBSFront,               //全方位中14
+        ForbidChargeLeft,       //左禁区14
 
-        OBSRight,               //全方位右15
+        ForbidChargeRight,      //右禁区15
 
-        ForbidChargeFront,      //前禁区16
+        ForbidFront,            //前禁区16
 
-        ForbidChargeLeft,       //左禁区17
+        ForbidLeft,             //左禁区17
 
-        ForbidChargeRight,      //右禁区18
+        ForbidRight,            //右禁区18
 
-        ForbidFront,            //前禁区19
+        RadarFront,             //前雷达信号19
 
-        ForbidLeft,             //左禁区20
+        RadarLeft,              //左雷达信号20
 
-        ForbidRight,            //右禁区21
+        RadarRight,             //右雷达信号21
 
-        RadarFront,             //前雷达信号22
-
-        RadarLeft,              //左雷达信号23
-
-        RadarRight,             //右雷达信号24
-
-        VirFront,
-
-        Virleftt,
-
-        VirRight,
-
-        IntoVir
+        InCharge                 //陷入回充座禁区22
 
     };
     
@@ -89,7 +77,7 @@ public:
 
     enum AlongWallDir
     {   
-        NO_DIR = 0
+        NO_DIR = 0,
         LEFT_ALONG_WALL = 1,
         RIGHT_ALONG_WALL = 2,
     };
@@ -101,23 +89,39 @@ public:
         EXPRESS = 2
     };
 
+    enum AlongWallMode
+    {
+        PID_ALONG_WALL = 0,
+        CHARGE_ALONG_WALL = 1,
+    };
+
     struct along_wall_para
     {
+        BumpList bump_record;
         BumpList bump_state;
         AlongWallDir dir;
         PID pid;
         BumpDealProcess bump_deal_state;
         SpeedMode speed_mode;
+        AlongWallMode mode;
+        int last_add_angle;
+        int vir_turn_cnt;
         long long start_time;
         long long quit_time;
         int add_angle;
         int aim_wall_dis;
         int now_wall_dis;
         int bump_flag;
+        float small_place_x;
+        float small_place_y;
+        int fast_wall_count;
+        int restricted_zone;
+        bool first_time_flag = false;
     };
     
 public:
     AlongWall(){}
+
     ~AlongWall() 
     {
         if (thread_->joinable()) {
@@ -125,19 +129,47 @@ public:
             thread_ = nullptr;
         }
     }
+
     int init();
+
     void startAlongWall();
+
     void stopAlongWall();
+
     bool wheelSpin();
+
     bool wheelBack();
+
     int getState();
+
     void bumpDetect();
+
     void bumpDeal();
-    void alongWallDeal();
+
+    void wallFollowDeal();
+
+    void initPid();
+    
+    int wallPid(int now_value, int aim_value);
+
+    bool isNearForbidArea(float x, float y, int area_type);
+
+    float getForbidAreaDis(int dir, int area_type);
+
+    bool isInChargeArea();
+
+    bool isInForbidArea();
+
+    bool isAwayChargeArea();
+
+    bool isAwayForbidArea();
 protected:
     bool threadLoop();
 private:
+    chassisBase chassis_;
+    Grid current_pos_;
+    Sensor current_sensor_;
     bool along_wall_running_ = false;
-    float record_forwar = 0;
-    along_wall_para wall_para;
+    float record_forward = 0;
+    along_wall_para wall_para_;
 };
