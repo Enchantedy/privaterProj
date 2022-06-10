@@ -1,3 +1,0 @@
-/home/c/umouse/codetest/myProject/CMakeFiles/edit_cache.dir
-/home/c/umouse/codetest/myProject/CMakeFiles/rebuild_cache.dir
-/home/c/umouse/codetest/myProject/CMakeFiles/proj.dir
