@@ -1,5 +1,6 @@
 #include "skeletonService.h"
 #include <string.h>
+#include <sys/time.h>
 class AlongWall:public SkeletonService
 {
 public:
@@ -64,7 +65,7 @@ public:
 
         Turn,
         
-        TurnVirtual,
+        TurnWithOutVirtual,
     };
 
     struct PID
@@ -74,6 +75,21 @@ public:
         int d;
         int last_p;
     };
+
+    typedef struct 
+    {
+        
+        float wallForward;
+
+        int wallForward0Count;
+
+        int wallForward90Count;
+
+        int wallForward180Count;
+
+        int wallForward270Count;
+
+    }WallFallowForbiddenPara_t;
 
     enum AlongWallDir
     {   
@@ -93,17 +109,18 @@ public:
     {
         PID_ALONG_WALL = 0,
         CHARGE_ALONG_WALL = 1,
+        FORBID_ALONG_WALL = 2,
     };
 
     struct along_wall_para
     {
         BumpList bump_record;
-        BumpList bump_state;
         AlongWallDir dir;
         PID pid;
         BumpDealProcess bump_deal_state;
         SpeedMode speed_mode;
         AlongWallMode mode;
+        WallFallowForbiddenPara_t wall_forbidden;
         int last_add_angle;
         int vir_turn_cnt;
         long long start_time;
@@ -116,6 +133,7 @@ public:
         float small_place_y;
         int fast_wall_count;
         int restricted_zone;
+        int bump_cnt;
         bool first_time_flag = false;
     };
     
@@ -136,7 +154,7 @@ public:
 
     void stopAlongWall();
 
-    bool wheelSpin();
+    bool wheelSpin(int angle);
 
     bool wheelBack();
 
@@ -156,6 +174,8 @@ public:
 
     float getForbidAreaDis(int dir, int area_type);
 
+    float getForbidDis(int dir);
+
     bool isInChargeArea();
 
     bool isInForbidArea();
@@ -163,13 +183,18 @@ public:
     bool isAwayChargeArea();
 
     bool isAwayForbidArea();
+
+    bool robotRotate(int record_angle, int aim_angle);
+
+    void detectSmallPlace();
 protected:
     bool threadLoop();
 private:
     chassisBase chassis_;
     Grid current_pos_;
     Sensor current_sensor_;
+    along_wall_para wall_para_;
     bool along_wall_running_ = false;
     float record_forward = 0;
-    along_wall_para wall_para_;
+    int back_times;
 };
